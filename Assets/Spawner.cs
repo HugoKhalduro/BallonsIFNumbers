@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     public Transform[] spawnPoints;
 
     public float minSpawnDelay = 0.5f;
-    public float maxSpawnDelay = 1f;
+    public float maxSpawnDelay = 2f;
 
     // Start is called before the first frame update
     void Start()
