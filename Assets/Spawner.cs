@@ -27,7 +27,7 @@ public class Spawner : MonoBehaviour
         int spawnIndex = Random.Range(0, spawnPoints.Length);
         Transform spawnPoint = spawnPoints[spawnIndex];
 
-        GameObject spawnedBalloon = Instantiate(Balloons, spawnPoint.position, spawnPoint.rotation);
+        GameObject SpawnedBalloons = Instantiate(Balloons, spawnPoint.position, spawnPoint.rotation);
         Destroy(spawnedBalloon, 5f);
 
         }
